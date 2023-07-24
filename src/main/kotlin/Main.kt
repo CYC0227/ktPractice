@@ -17,5 +17,13 @@ fun main(){
     println(readOnlyList.indexOf("bc"))
     println(readOnlyList.size)
     println("bc" in readOnlyList)
+    println(mutableList.remove("cd"))
+
+    val mutableMap = mutableMapOf("a" to "111", "b" to "222")
+//    println(mutableMap[0])
+    println(mutableMap["a"])
+
+
+
 
 }
